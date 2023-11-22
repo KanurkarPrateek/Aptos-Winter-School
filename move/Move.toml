@@ -1,0 +1,15 @@
+[package]
+name = "counter"
+version = "1.0.0"
+authors = []
+
+[addresses]
+counter_addr='e5f7ef3eaadc96e7ca355f524c2631389053b999bf40405c4eea1da0cd6a06b3'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
